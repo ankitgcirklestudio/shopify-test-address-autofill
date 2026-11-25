@@ -1,0 +1,196 @@
+body {
+  width: 280px;
+  margin: 0;
+  background: var(--page-background);
+  color: var(--text-color);
+}
+
+main {
+  padding: 16px;
+}
+
+.popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.popup-header h1 {
+  margin: 0;
+}
+
+.settings-popup-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.settings-popup-header h1 {
+  margin: 0;
+}
+
+.back-button {
+  width: auto;
+  height: 30px;
+  margin: 0;
+  padding: 0 8px;
+  border: 1px solid var(--border-color);
+  background: var(--surface-background);
+  color: var(--text-color);
+  font-size: 13px;
+}
+
+.back-button:hover,
+.secondary-button:hover {
+  background: var(--page-background);
+}
+
+.settings-card {
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--surface-background);
+}
+
+.settings-card h2 {
+  margin: 0 0 6px;
+  font-size: 15px;
+}
+
+.settings-card > p {
+  margin: 0 0 10px;
+  color: var(--muted-color);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.settings-card label {
+  margin-top: 8px;
+}
+
+.settings-card button {
+  margin-top: 4px;
+}
+
+.settings-card .secondary-button {
+  width: auto;
+  padding: 0 10px;
+  border: 1px solid var(--border-color);
+  background: var(--surface-background);
+  color: var(--text-color);
+  font-size: 12px;
+}
+
+.settings-card .help-text {
+  margin: 10px 0 0;
+  font-size: 11px;
+}
+
+.settings-card kbd,
+.settings-card code {
+  padding: 2px 4px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--page-background);
+  color: var(--text-color);
+  font-family: Consolas, monospace;
+  font-size: 11px;
+}
+
+.shortcut-display {
+  color: var(--text-color) !important;
+}
+
+#settings-status {
+  min-height: 16px;
+  margin: 0;
+  color: var(--muted-color);
+  font-size: 11px;
+}
+
+.icon-button {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 5px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted-color);
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  background: var(--surface-background);
+  color: var(--text-color);
+}
+
+.icon-button svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.notice {
+  margin: 0 0 14px;
+  color: var(--notice-color);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+select,
+button {
+  width: 100%;
+  box-sizing: border-box;
+  height: 38px;
+  border-radius: 6px;
+  font: inherit;
+}
+
+select {
+  border: 1px solid var(--border-color);
+  background: var(--surface-background);
+  color: var(--text-color);
+  padding: 0 8px;
+}
+
+#country {
+  margin-bottom: 12px;
+}
+
+button {
+  margin-top: 12px;
+  border: 0;
+  background: var(--accent-color);
+  color: var(--button-text-color);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--accent-hover-color);
+}
+
+#status {
+  min-height: 18px;
+  margin: 10px 0 0;
+  font-size: 12px;
+  text-align: center;
+  color: var(--muted-color);
+}
